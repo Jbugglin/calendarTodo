@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My take on a calendar web-app">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Calendar/Todo</title>
+</head>
+<body>
+    <main>
+        <div class="calendarContainer">
+            <div class="buttonContainer">
+                <div id="previousMonth">
+                    <Button id="previousMonthButton">Previous</Button>
+                </div>
+
+                <div id="nextMonth">
+                    <button id="nextMonthButton">Next</button>
+                </div>
+            </div>
+
+            <div class="dateDetailContainer">
+                <div id="year"></div>
+                <div id="month"></div>
+                <div id="weekDay"></div>
+                <div id="numericalDate"></div>
+            </div>
+        </div>
+        <div class="todoContainer"></div>
+    </main>
+
+    <script src="./actions.js"></script>    
+</body>
+</html>
